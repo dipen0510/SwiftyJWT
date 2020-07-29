@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/dipen0510/SwiftyJWT.git", :tag => s.version }
   s.source_files = 'Sources/**/*.swift'
-  s.dependency 'SwiftyCrypto', :git => 'https://github.com/dipen0510/SwiftyCrypto.git'
+  s.dependency 'SwiftyCrypto'
   s.swift_version = '4.0'
 end
